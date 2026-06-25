@@ -372,15 +372,15 @@
           <p>Odpowiadam na zapytania zwykle w ciągu 1–2 dni roboczych. Pierwsza rozmowa pomoże ustalić, jak mogę pomóc w Twojej sprawie.</p>
           <div class="info-row">
             <div class="ico">@</div>
-            <div><div class="label">E-mail</div><div class="value">[uzupełnij adres e-mail]</div></div>
+            <div><div class="label">E-mail</div><div class="value">m.niewiadomski@bizgate-lex.pl</div></div>
           </div>
           <div class="info-row">
             <div class="ico">T</div>
-            <div><div class="label">Telefon</div><div class="value">[uzupełnij numer telefonu]</div></div>
+            <div><div class="label">Telefon</div><div class="value">+ 48 501 089 189</div></div>
           </div>
           <div class="info-row">
             <div class="ico">A</div>
-            <div><div class="label">Adres</div><div class="value">Wrocław, [uzupełnij adres]</div></div>
+            <div><div class="label">Adres</div><div class="value">Wrocław, Dicksteina 6/17</div></div>
           </div>
         </div>
         <form class="contact-form" id="contactForm">
@@ -427,7 +427,7 @@
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
-    const to = 'PODAJ-TU-SWOJ-EMAIL@example.com'; // <-- uzupełnij właściwy adres e-mail
+    const to = 'm.niewiadomski@bizgate-lex.pl'; // <-- uzupełnij właściwy adres e-mail
     const subject = encodeURIComponent('Zapytanie ze strony Bizgate-Lex od ' + name);
     const body = encodeURIComponent(message + '\n\nOd: ' + name + ' (' + email + ')');
     window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
